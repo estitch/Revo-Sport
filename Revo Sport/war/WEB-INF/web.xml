@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+		<servlet>
+		<servlet-name>Gmail</servlet-name>
+		<servlet-class>unsa.GmailServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>Gmail</servlet-name>
+		<url-pattern>/gmail</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>Cerrar</servlet-name>
+		<servlet-class>unsa.CerrarServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>Cerrar</servlet-name>
+		<url-pattern>/cerrar</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+        <servlet-name>ActualizarAdmi</servlet-name>
+        <servlet-class>unsa.ActualizarAdmi</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>ActualizarAdmi</servlet-name>
+        <url-pattern>/actualizarAdmi</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        <servlet-name>ActualizarSecretaria</servlet-name>
+        <servlet-class>unsa.ActualizarSecretaria</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>ActualizarSecretaria</servlet-name>
+        <url-pattern>/actualizarSecretaria</url-pattern>
+        </servlet-mapping>v
+        
+        <servlet>
+        <servlet-name>ActualizarMedico</servlet-name>
+        <servlet-class>unsa.ActualizarMedico</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>ActualizarMedico</servlet-name>
+        <url-pattern>/actualizarMedico</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        <servlet-name>ActualizarCliente</servlet-name>
+        <servlet-class>unsa.ActualizarCliente</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>ActualizarCliente</servlet-name>
+        <url-pattern>/actualizarCliente</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        <servlet-name>ActualizarDisciplina</servlet-name>
+        <servlet-class>unsa.ActualizarDisciplina</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>ActualizarDisciplina</servlet-name>
+        <url-pattern>/actualizarDisciplina</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+        <servlet-name>PerfilCliente</servlet-name>
+        <servlet-class>unsa.PerfilCliente</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>PerfilCliente</servlet-name>
+        <url-pattern>/perfilCliente</url-pattern>
+        </servlet-mapping>
+        
+        <servlet>
+        <servlet-name>PerfilTrainer</servlet-name>
+        <servlet-class>unsa.PerfilTrainer</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>PerfilTrainer</servlet-name>
+        <url-pattern>/perfilTrainer</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+        <servlet-name>GuardarVisitante</servlet-name>
+        <servlet-class>unsa.GuardarVisitante</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>GuardarVisitante</servlet-name>
+        <url-pattern>/guardarVisitante</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+        <servlet-name>BuscarDisciplina</servlet-name>
+        <servlet-class>unsa.BuscarDisciplina</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>BuscarDisciplina</servlet-name>
+        <url-pattern>/buscarDisciplina</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+        <servlet-name>BuscarCliente</servlet-name>
+        <servlet-class>unsa.BuscarCliente</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>BuscarCliente</servlet-name>
+        <url-pattern>/buscarCliente</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+        <servlet-name>BuscarMedico</servlet-name>
+        <servlet-class>unsa.BuscarMedico</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>BuscarMedico</servlet-name>
+        <url-pattern>/buscarMedico</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+		<servlet-name>NuevoMedicoServlet</servlet-name>
+		<servlet-class>unsa.NuevoMedicoServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>NuevoMedicoServlet</servlet-name>
+		<url-pattern>/nuevoMedico</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>NuevaDisciplinaServlet</servlet-name>
+		<servlet-class>unsa.NuevaDisciplinaServlet</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>NuevaDisciplinaServlet</servlet-name>
+		<url-pattern>/nuevaDisciplina</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarCliente</servlet-name>
+		<servlet-class>unsa.BorrarCliente</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarCliente</servlet-name>
+		<url-pattern>/borrarCliente</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarSecretaria</servlet-name>
+		<servlet-class>unsa.BorrarSecretaria</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarSecretaria</servlet-name>
+		<url-pattern>/borrarSecretaria</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarMedico</servlet-name>
+		<servlet-class>unsa.BorrarMedico</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarMedico</servlet-name>
+		<url-pattern>/borrarMedico</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarDisciplina</servlet-name>
+		<servlet-class>unsa.BorrarDisciplina</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarDisciplina</servlet-name>
+		<url-pattern>/borrarDisciplina</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>RegistrarCliente</servlet-name>
+		<servlet-class>unsa.RegistrarCliente</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>RegistrarCliente</servlet-name>
+		<url-pattern>/registrarCliente</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>RegistrarSecretaria</servlet-name>
+		<servlet-class>unsa.RegistrarSecretaria</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>RegistrarSecretaria</servlet-name>
+		<url-pattern>/registrarSecretaria</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>RegistrarAdmi</servlet-name>
+		<servlet-class>unsa.RegistrarAdmi</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>RegistrarAdmi</servlet-name>
+		<url-pattern>/registrarAdmi</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarAdmi</servlet-name>
+		<servlet-class>unsa.BorrarAdmi</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarAdmi</servlet-name>
+		<url-pattern>/borrarAdmi</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BuscarAdministrador</servlet-name>
+		<servlet-class>unsa.BuscarAdministrador</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BuscarAdministrador</servlet-name>
+		<url-pattern>/buscarAdministrador</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>RegistrarTrainer</servlet-name>
+		<servlet-class>unsa.RegistrarTrainer</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>RegistrarTrainer</servlet-name>
+		<url-pattern>/registrarTrainer</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BorrarTrainer</servlet-name>
+		<servlet-class>unsa.BorrarTrainer</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BorrarTrainer</servlet-name>
+		<url-pattern>/borrarTrainer</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+		<servlet-name>BuscarTrainer</servlet-name>
+		<servlet-class>unsa.BuscarTrainer</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>BuscarTrainer</servlet-name>
+		<url-pattern>/buscarTrainer</url-pattern>
+		</servlet-mapping>
+		
+		<servlet>
+        <servlet-name>BuscarSecretaria</servlet-name>
+        <servlet-class>unsa.BuscarSecretaria</servlet-class>
+        </servlet>
+        <servlet-mapping>
+        <servlet-name>BuscarSecretaria</servlet-name>
+        <url-pattern>/buscarSecretaria</url-pattern>
+        </servlet-mapping>
+		
+		<servlet>
+		<servlet-name>ActualizarTrainer</servlet-name>
+		<servlet-class>unsa.ActualizarTrainer</servlet-class>
+		</servlet>
+		<servlet-mapping>
+		<servlet-name>ActualizarTrainer</servlet-name>
+		<url-pattern>/actualizarTrainer</url-pattern>
+		</servlet-mapping>
+		
+		<welcome-file-list>
+			<welcome-file>portada.html</welcome-file>
+		</welcome-file-list>
+	</web-app>

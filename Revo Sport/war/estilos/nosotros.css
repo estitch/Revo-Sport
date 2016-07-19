@@ -1,0 +1,132 @@
+
+
+.fondo{
+ 	top: 0px;
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+
+}
+.bienvenido{
+	position: absolute;
+    top: 30%;
+	margin-left: 55%;
+
+}
+
+.bienvenido p{
+	font-size: 280%;
+	font-family: Arial Black;
+	color: #fff;
+	text-shadow:3px 3px 3px  #000;
+}
+.vision{
+
+  	position: absolute;
+  	top: 20%;
+  	left: 10%;
+    border: 2px solid #97E8DE;
+    padding: 20px;
+    width: 200px;
+    height: 8px;
+    background: #97E8DE;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.vision p, .mision p{
+	
+	font-size: 100%;
+	text-align: center;
+	font-family: Arial Black;
+	color: #fff;
+	text-shadow:3px 3px 3px  #000;	
+}
+
+.contenido{
+	position: absolute;
+  	top: 30%;
+  	left: 10%;
+   
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    background: rgba(31,56,53,0.7);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.contenido p , .contenido2 p{
+	font-size: 95%;
+	text-align: justify;
+	font-family: Century Gothic;
+	color: #fff;
+
+}
+.mision{
+
+  	position: absolute;
+  	top: 55%;
+  	left: 10%;
+    border: 2px solid #97E8DE;
+    padding: 20px;
+    width: 200px;
+    height: 8px;
+    background: #97E8DE;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.contenido2{
+	position: absolute;
+  	top: 65%;
+  	left: 10%;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+    background: rgba(31,56,53,0.7);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.contenido:hover,.contenido2:hover{
+	background: rgba(10,217,193,0.5);
+
+}
+
+.somos p{
+
+	position: absolute;
+  	top: 50%;
+  	left: 60%;
+    padding: 20px;
+    width: 360px;
+    height: 100px;
+    background: rgba(255,255,255,0.7);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
+
+}
+.somos p {
+	font-size: 98%;
+	text-align: justify;
+	font-family: Century Gothic;
+	color: #000;
+
+}

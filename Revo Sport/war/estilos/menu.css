@@ -1,0 +1,163 @@
+  	body {
+
+	margin: 0;
+	
+	
+}
+
+/*---------------------------------estilos de menu---------------------------------------*/
+header{
+	width: 60%;/*ancho del menu*/
+	/*background: #4Effff;*/
+	font-family: Arial;
+	font-size: 14px;
+	position: absolute;
+	left: 20%;/*posicion desde la izquierda*/
+	top:2%;
+
+
+}
+.menu ul{
+	margin: 1;/*margen desde el tope de la pantalla hasta el menu*/
+	list-style: none;
+	padding: 10;/*distacia eentre cada albra del mneu*/
+	display: flex;/*por defecto pone tod el menu en linea*/
+	justify-content: center;
+
+}
+
+.menu li {
+	text-align: center;
+	border-right: 1px solid #fff;
+	
+}
+
+.menu li a{
+	display: block;
+	padding:  10px 20px;
+	color : #fff;
+	text-decoration: none;
+}
+
+/*------------------------------------------fin de estilos de menu-------------------------------*/
+
+/*-------estilos de logo inicial -*/
+.hombre1{
+ 
+  position: absolute;
+    top:3%;
+    left:9%;
+ 
+}
+.revo1{/*estilos de revo*/
+font-family: Aldhabi ;
+font-size: 230%;
+position: absolute;
+top:3%;
+left: 1%;
+color: #ffffff;
+
+}
+.sport1{
+font-family: Aldhabi ;
+font-size: 230%;
+position: absolute;
+top:3%;
+left:12%;
+color: #ffffff
+
+}
+
+
+
+/*fin de logo incilal*/
+
+
+/* iniciar sesion*/
+.sesion{
+background: rgba(226,237,14,0.5);
+width: 10%;
+
+padding:  10px 10px;
+text-align: center;
+font-family: 	arial;
+font-size: 100%;
+position: absolute;
+top:4%;
+left:85%;
+color: #ffffff;
+
+
+}
+.sesion a{
+	text-decoration: none;
+	color: black;
+}
+
+.sesion:hover{
+	background: rgba(247,248,234,0.5);
+}
+
+
+/*fin de  inciar sesion*/
+
+video{
+
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+
+	top: 50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+
+}
+/*div{
+	width: 30%;
+	color: #ffffff;
+	padding: 20px;
+	margin: 5%;
+}
+.titulo{
+	top: 10%;
+	margin: 50%;
+}
+*/
+
+/*-------------------estilos del titulo  centrado revo sport-----------*/
+.hombre {
+ 
+  position: absolute;
+    top:40%;
+    left:45%;
+ 
+}
+.revo{/*estilos de revo*/
+font-family: Aldhabi ;
+font-size: 700%;
+position: absolute;
+top:42%;
+left: 20%;
+color: #ffffff;
+
+}
+.sport{
+font-family: Aldhabi ;
+font-size: 700%;
+position: absolute;
+top:280px;
+left:760px;
+color: #ffffff
+
+}
+
+.gym{
+font-family: Arial;
+font-size: 130%;
+position: absolute;
+top:420px;
+left:480px;
+color: #4BA491;
+
+}

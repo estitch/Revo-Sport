@@ -1,0 +1,304 @@
+body {
+
+	margin: 0;
+	background-color: black;
+	
+}
+
+/*---------------------------------estilos de menu---------------------------------------*/
+header{
+	width: 60%;/*ancho del menu*/
+	/*background: #4Effff;fondo del menu*/
+	font-family: Arial;
+	font-size: 15px;
+	position: relative;
+	left: 300px;/*posicion desde la izquierda*/
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140 px;
+}
+.menu > li{
+    float: left;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+    background: rgba(238,238,234,0.3);
+}
+.menu li ul li ul{
+    right: -140 px;
+    top: 0 px;
+    
+}
+.menu ul{
+	margin: 1;/*margen desde el tope de la pantalla hasta el menu*/
+	list-style: none;
+	padding: 10;/*distacia eentre cada albra del mneu*/
+	display: flex;/*por defecto pone tod el menu en linea*/
+	justify-content: center;
+
+}
+
+.menu li {
+	text-align: center;
+	border-right: 0.5px solid #fff;
+	background: rgba(238,238,234,0.3);
+}
+.menu li:hover{
+	background: rgba(0,0,0,0.5);/*es para el menu cambie de color cuando se coloque el menu*/
+}
+.menu li a{
+	display: block;
+	padding:  10px 20px;
+	color : black;
+	text-decoration: none;
+}
+
+/*------------------------------------------fin de estilos de menu-------------------------------*/
+
+/*-------estilos de logo inicial -*/
+.hombre1{
+ 
+  position: absolute;
+    top:25px;
+    left:105px;
+ 
+}
+.revo1{/*estilos de revo*/
+font-family: Aldhabi ;
+font-size: 300%;
+position: absolute;
+top:10px;
+left: 20px;
+color: #ffffff;
+
+}
+.sport1{
+font-family: Aldhabi ;
+font-size: 300%;
+position: absolute;
+top:10px;
+left:150px;
+color: #ffffff
+
+}
+
+
+
+/*fin de logo incilal*/
+
+
+/* iniciar sesion*/
+.sesion{
+background: rgba(226,237,14,0.5);
+width: 10%;
+
+padding:  10px 10px;
+text-align: center;
+font-family: 	arial;
+font-size: 100%;
+position: absolute;
+top:20px;
+left:1180px;
+color: #ffffff;
+
+
+}
+.sesion a{
+	text-decoration: none;
+	color: black;
+}
+
+.sesion:hover{
+	background: rgba(247,248,234,0.5);
+}
+
+tr{
+background: rgba(238,238,234,0.5);
+}
+
+/*fin de  inciar sesion*/
+
+video{
+
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+
+	top: 50%;
+	left:50%;
+	transform: translateX(-50%) translateY(-50%);
+	z-index: -1;
+
+}
+/*div{
+	width: 30%;
+	color: #ffffff;
+	padding: 20px;
+	margin: 5%;
+}
+.titulo{
+	top: 10%;
+	margin: 50%;
+}
+*/
+
+/*-------------------estilos del titulo  centrado revo sport-----------*/
+.hombre {
+ 
+  position: absolute;
+    top:280px;
+    left:600px;
+ 
+}
+.revo{/*estilos de revo*/
+font-family: Aldhabi ;
+font-size: 700%;
+position: absolute;
+top:280px;
+left: 400px;
+color: #ffffff;
+
+}
+.sport{
+font-family: Aldhabi ;
+font-size: 700%;
+position: absolute;
+top:280px;
+left:760px;
+color: #ffffff
+
+}
+
+.gym{
+font-family: Arial;
+font-size: 130%;
+position: absolute;
+top:420px;
+left:480px;
+color: #4BA491;
+
+}
+/*----------------------------------------------------------*/
+
+/*----------------------formularios-------------------------*/
+.contact_form h2 {
+    background: none repeat scroll 0 0 #000000;
+    /*FONDO DEL TITULO DEL FORMULARIO  FORMULARIO DE CARGO */
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    font-family: calibri;
+    font-size: 20px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #CCCCCC;
+    width: 433px;
+}
+/*— estilos para los ul y li del formulario —*/
+.contact_form ul {
+    width: 500px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.contact_form li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: static;
+}
+.contact_form label, select {
+    color: #555555;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    padding: 3px;
+    width: 90px
+}
+.contact_form #nacimiento {
+    font-family: calibri;
+    font-size: 14px;
+    width: 150px;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.contact_form input {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+}
+.contact_form .fecha {
+    height: 20px;
+    width:45px;
+    padding: 5px 8px;
+}
+.contact_form .anio {
+    height: 20px;
+    width: 40px;
+}
+.contact_form .numero {
+    height: 20px;
+    width: 80px;
+}
+/*—– estilos visuales de los elementos ——–*/
+.contact_form input {
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    color: #888;
+    font-size: 12px;
+    padding-right: 30px;
+    -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+.contact_form input:focus, .contact_form textarea:focus {
+    border: 1px solid #000000;
+    box-shadow: 0 0 3px #000000;
+    padding-right: 20px;
+}
+/* === Estilos de Validacion === */
+.contact_form input:required:valid, .contact_form textarea:required:valid
+    {
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.contact_form input:focus:invalid, .contact_form textarea:focus:invalid
+    {
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+/*----------------------fin de los formularios-------------------------*/
+
+.cliente {
+    list-style-type: none;
+}
+.title{
+    background: rgba(238,238,234,0.5);
+	
+}
+/*----------------------cuadro de informacion-----------------------*/
+.trans{
+    background: rgba(238,238,234,0.3);
+}
+.intro { 
+    min-width: 470px;
+    width: 100%;
+}
+.summary {
+    clear: both; 
+    margin: 20px 20px 20px 10px; 
+}
+.summary p {
+    font: italic 1.1em/2.2 georgia; 
+    text-align: center;
+}
+
+
